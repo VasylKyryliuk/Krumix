@@ -1,0 +1,193 @@
+/* font-family: 'LetoSans'; */
+@font-face {
+    font-family: 'LetoSans';
+    src: url('/fonts/LetoSans/LetoSans.eot');
+    src: url('/fonts/LetoSans/LetoSans.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LetoSans/LetoSans.svg#LetoSans') format('svg'),
+    url('/fonts/LetoSans/LetoSans.ttf') format('truetype'),
+    url('/fonts/LetoSans/LetoSans.woff') format('woff'),
+    url('/fonts/LetoSans/LetoSans.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font-family: 'Wingdings-Regular'; */
+@font-face {
+    font-family: 'Wingdings-Regular';
+    src: url('/fonts/Wingdings/Wingdings-Regular.svg#Wingdings-Regular') format('svg'),
+    url('/fonts/Wingdings/Wingdings-Regular.ttf') format('truetype'),
+    url('/fonts/Wingdings/Wingdings-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font-family: 'wingding_2'; */
+@font-face {
+    font-family: 'wingding_2';
+    src: url('/fonts/Wingdings/wingding_2.eot');
+    src: url('/fonts/Wingdings/wingding_2.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Wingdings/wingding_2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* font-family: 'LetoSans-Bold'; */
+@font-face {
+    font-family: 'LetoSans-Bold';
+    src: url('/fonts/LetoSans-Bold/LetoSans-Bold.eot');
+    src: url('/fonts/LetoSans-Bold/LetoSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/LetoSans-Bold/LetoSans-Bold.svg#LetoSans-Bold') format('svg'),
+    url('/fonts/LetoSans-Bold/LetoSans-Bold.ttf') format('truetype'),
+    url('/fonts/LetoSans-Bold/LetoSans-Bold.woff') format('woff'),
+    url('/fonts/LetoSans-Bold/LetoSans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.about-us-section {
+    padding-bottom: 80px;
+}
+
+.about-us-section p {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'LetoSans';
+    color: #000000;
+}
+
+.about-us-section p.title {
+    font-size: 18px;
+    line-height: 21px;
+    color: #05989e;
+    font-family: 'LetoSans-Bold';
+}
+
+.about-us-section img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.about-us-section .left-side,
+.about-us-section .right-side {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dots-style li {
+    position: relative;
+    padding-left: 13px;
+}
+
+.dots-style li::before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #00979e;
+    left: 0;
+    top: 7px;
+}
+
+.h2--orange.short-line {
+    position: relative;
+    text-align: left;
+    display: inline-block;
+}
+
+.h2--orange.short-line::after {
+    width: 80px;
+    left: 0;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-block {
+    padding: 80px 30px;
+}
+
+.about-us-block .left-side,
+.history-block .left-side {
+    text-align: left;
+    max-width: 450px;
+}
+
+.about-us-block .left-side .text-page__title {
+    margin-bottom: 60px;
+}
+
+.about-us-block .right-side {
+    height: 362px;
+}
+
+.about-us-block .right-side img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.our-values .inner-block {
+    max-width: 450px;
+}
+
+.history-block {
+    margin-top: 80px;
+    align-items: flex-start;
+}
+
+.history-block .left-side img {
+    margin-top: 16px;
+}
+
+.history-block ul li{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    font-family: 'LetoSans';
+}
+
+.history-block ul li:last-child {
+    margin-bottom: 0;
+}
+
+.why_choice-block {
+    margin-top: 80px;
+}
+
+.why_choice-block .left-side {
+    max-width: 450px;
+}
+
+.why_choice-block .content.flex {
+    align-items: flex-start;
+}
+
+.why_choice-block .content img {
+    max-width: 125px;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px 25px 0;
+}
+
+.why_choice-block .content p.title {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.why_choice-block .content p:nth-of-type(2) {
+    margin-top: 3px;
+}
+
+.why_choice-block .content p.title:not(:first-of-type) {
+    margin-top: 50px;
+}
+
+.why_choice-block .right-side .inside-content {
+    max-width: 450px;
+}
