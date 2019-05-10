@@ -1,46 +1,3 @@
-/* font-family: 'LetoSans'; */
-@font-face {
-    font-family: 'LetoSans';
-    src: url('/fonts/LetoSans/LetoSans.eot');
-    src: url('/fonts/LetoSans/LetoSans.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/LetoSans/LetoSans.svg#LetoSans') format('svg'),
-    url('/fonts/LetoSans/LetoSans.ttf') format('truetype'),
-    url('/fonts/LetoSans/LetoSans.woff') format('woff'),
-    url('/fonts/LetoSans/LetoSans.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-/* font-family: 'Wingdings-Regular'; */
-@font-face {
-    font-family: 'Wingdings-Regular';
-    src: url('/fonts/Wingdings/Wingdings-Regular.svg#Wingdings-Regular') format('svg'),
-    url('/fonts/Wingdings/Wingdings-Regular.ttf') format('truetype'),
-    url('/fonts/Wingdings/Wingdings-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-/* font-family: 'wingding_2'; */
-@font-face {
-    font-family: 'wingding_2';
-    src: url('/fonts/Wingdings/wingding_2.eot');
-    src: url('/fonts/Wingdings/wingding_2.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/Wingdings/wingding_2.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-/* font-family: 'LetoSans-Bold'; */
-@font-face {
-    font-family: 'LetoSans-Bold';
-    src: url('/fonts/LetoSans-Bold/LetoSans-Bold.eot');
-    src: url('/fonts/LetoSans-Bold/LetoSans-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/LetoSans-Bold/LetoSans-Bold.svg#LetoSans-Bold') format('svg'),
-    url('/fonts/LetoSans-Bold/LetoSans-Bold.ttf') format('truetype'),
-    url('/fonts/LetoSans-Bold/LetoSans-Bold.woff') format('woff'),
-    url('/fonts/LetoSans-Bold/LetoSans-Bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .about-us-section {
     padding-bottom: 80px;
 }
@@ -48,7 +5,6 @@
 .about-us-section p {
     font-size: 14px;
     line-height: 16px;
-    font-family: 'LetoSans';
     color: #000000;
 }
 
@@ -56,7 +12,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #05989e;
-    font-family: 'LetoSans-Bold';
+    font-weight: bold;
 }
 
 .about-us-section img {
@@ -147,7 +103,6 @@
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 10px;
-    font-family: 'LetoSans';
 }
 
 .history-block ul li:last-child {
